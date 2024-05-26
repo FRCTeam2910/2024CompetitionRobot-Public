@@ -1,5 +1,7 @@
 package frc.robot;
 
+import java.util.Optional;
+
 import edu.wpi.first.math.VecBuilder;
 import edu.wpi.first.math.estimator.SwerveDrivePoseEstimator;
 import edu.wpi.first.math.geometry.*;
@@ -14,8 +16,6 @@ import frc.robot.subsystems.CompensationCoefficientConstants;
 import frc.robot.util.Angles;
 import org.littletonrobotics.junction.AutoLogOutput;
 import org.littletonrobotics.junction.Logger;
-
-import java.util.Optional;
 
 import static frc.robot.config.FieldConstants.BLUE_SPEAKER;
 import static frc.robot.config.FieldConstants.RED_SPEAKER;

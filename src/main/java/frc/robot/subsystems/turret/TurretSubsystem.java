@@ -1,5 +1,7 @@
 package frc.robot.subsystems.turret;
 
+import java.util.function.BooleanSupplier;
+
 import com.ctre.phoenix6.signals.NeutralModeValue;
 import edu.wpi.first.math.MathUtil;
 import edu.wpi.first.math.geometry.Rotation2d;
@@ -11,8 +13,6 @@ import frc.robot.config.TurretConfiguration;
 import frc.robot.subsystems.servo.ServoIO;
 import frc.robot.subsystems.servo.ServoSubsystem;
 import org.littletonrobotics.junction.Logger;
-
-import java.util.function.BooleanSupplier;
 
 /**
  * Represents a turret. The turret is used to aim the shooter at a target.

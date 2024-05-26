@@ -1,5 +1,7 @@
 package frc.robot.subsystems.pivot;
 
+import java.util.function.BooleanSupplier;
+
 import edu.wpi.first.math.MathUtil;
 import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.wpilibj.DriverStation;
@@ -9,8 +11,6 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.RobotContainer;
 import frc.robot.util.Alert;
 import org.littletonrobotics.junction.Logger;
-
-import java.util.function.BooleanSupplier;
 
 public class PivotSubsystem extends SubsystemBase {
     public static final double FORWARD_SOFT_LIMIT_DEGREES = 70.0;
