@@ -1,0 +1,95 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 15.135773140794338,
+        "y": 5.548921710691724
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.592944465392035,
+        "y": 5.535994035608302
+      },
+      "isLocked": false,
+      "linkedName": "Red_Center"
+    },
+    {
+      "anchor": {
+        "x": 13.787867556314211,
+        "y": 4.213748355992474
+      },
+      "prevControl": {
+        "x": 13.782744163892774,
+        "y": 3.824370531963269
+      },
+      "nextControl": {
+        "x": 13.795151758992644,
+        "y": 4.76734775955331
+      },
+      "isLocked": false,
+      "linkedName": "Red_Preplace_C"
+    },
+    {
+      "anchor": {
+        "x": 13.944650427011592,
+        "y": 5.548921710691724
+      },
+      "prevControl": {
+        "x": 13.929394493334975,
+        "y": 5.059013671606376
+      },
+      "nextControl": {
+        "x": 13.959218832368455,
+        "y": 6.016751412384813
+      },
+      "isLocked": false,
+      "linkedName": "Red_Preplace_B"
+    },
+    {
+      "anchor": {
+        "x": 13.944650427011592,
+        "y": 7.0312391924218876
+      },
+      "prevControl": {
+        "x": 13.951934629690024,
+        "y": 6.63060804510813
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Red_Preplace_A"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": -144.0123329802243,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.6500000000000001,
+      "rotationDegrees": 140.16385955409893,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 1.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 144.02761295071508,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "RED_CENTER",
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}
