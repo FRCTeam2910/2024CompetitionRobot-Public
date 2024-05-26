@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.3,
+        "y": 5.75
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.794034557701885,
+        "y": 7.310029683618689
+      },
+      "isLocked": false,
+      "linkedName": "Blue_Preplace_E"
+    },
+    {
+      "anchor": {
+        "x": 4.220866110340978,
+        "y": 6.7
+      },
+      "prevControl": {
+        "x": 5.268702065476165,
+        "y": 6.823108404762007
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Blue_Presweep_Stop"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 6.25,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "BLUE_PREPLACE_E",
+  "previewStartingState": null,
+  "useDefaultConstraints": false
+}

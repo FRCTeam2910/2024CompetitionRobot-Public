@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3753189132437587,
+        "y": 6.292811126406152
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.393944044676095,
+        "y": 6.292811126406152
+      },
+      "isLocked": false,
+      "linkedName": "Blue_Amp"
+    },
+    {
+      "anchor": {
+        "x": 3.992125401270577,
+        "y": 6.296415857309116
+      },
+      "prevControl": {
+        "x": 3.268707003150688,
+        "y": 6.008328927596005
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Blue_Amp_Shot"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 6.25,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "BLUE_AMP",
+  "previewStartingState": null,
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3753189132437587,
+        "y": 6.292811126406152
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.384174109096806,
+        "y": 6.237508166223959
+      },
+      "isLocked": false,
+      "linkedName": "Blue_Amp"
+    },
+    {
+      "anchor": {
+        "x": 8.3,
+        "y": 7.45
+      },
+      "prevControl": {
+        "x": 5.535862817841455,
+        "y": 6.717576189389667
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Red_Preplace_D"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.4,
+      "rotationDegrees": 0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 6.25,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 17.052755931725574,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "BLUE_AMP",
+  "previewStartingState": null,
+  "useDefaultConstraints": true
+}
